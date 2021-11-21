@@ -17,17 +17,7 @@ import os
 figurePlot=False
 # Data process
 # original process
-'''
-f09_g16_1     = xr.open_dataset('/Users/zhehao/Documents/CLM/f09_g16-veg_test/nc_output/f09_g16/F_f09_g16_30y.cam.h0.0033-06.nc')
-f09_g16_2     = xr.open_dataset('/Users/zhehao/Documents/CLM/f09_g16-veg_test/nc_output/f09_g16/F_f09_g16_30y.cam.h0.0033-07.nc')
-f09_g16_3     = xr.open_dataset('/Users/zhehao/Documents/CLM/f09_g16-veg_test/nc_output/f09_g16/F_f09_g16_30y.cam.h0.0033-08.nc')
-f09_g16 = xr.merge([f09_g16_1,f09_g16_2,f09_g16_3]);
-# veg-changed process
-f09_g16_veg_1 = xr.open_dataset('/Users/zhehao/Documents/CLM/f09_g16-veg_test/nc_output/f09_g16_veg/F_f09_g16_30y_veg.cam.h0.0033-06.nc')
-f09_g16_veg_2 = xr.open_dataset('/Users/zhehao/Documents/CLM/f09_g16-veg_test/nc_output/f09_g16_veg/F_f09_g16_30y_veg.cam.h0.0033-07.nc')
-f09_g16_veg_3 = xr.open_dataset('/Users/zhehao/Documents/CLM/f09_g16-veg_test/nc_output/f09_g16_veg/F_f09_g16_30y_veg.cam.h0.0033-08.nc')
-f09_g16_veg = xr.merge([f09_g16_veg_1,f09_g16_veg_2,f09_g16_veg_3]);
-'''
+# ttttttt
 # Function definition
 # To get phase-averaged values
 def read_merge_nc(filedir):
