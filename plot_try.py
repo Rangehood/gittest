@@ -17,7 +17,6 @@ import os
 figurePlot=False
 # Data process
 # original process
-# ttttttt
 # Function definition
 # To get phase-averaged values
 def read_merge_nc(filedir):
